@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -52,13 +51,3 @@ export default function ExpenseCard() {
       </Card>
   );
 }
-
-// axios.get('http://localhost:3001/planned_expenses')
-//         .then(response => {
-//             // console.log(response)
-//             this.state = {
-//                 expenses: response.data
-//             }
-//             // console.log(this.state)
-//         })
-        // .catch(error => console.log(error))

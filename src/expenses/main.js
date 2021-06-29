@@ -20,6 +20,7 @@ import MailIcon from '@material-ui/icons/Mail';
 
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
+import WalletCard from "./wallet";
 
 const drawerWidth = 240;
 
@@ -161,7 +162,7 @@ export default function PersistentDrawerLeft() {
                 </Grid>
                 <Grid item xs={5}>
                     <h1>My wallet</h1>
-                    <Paper className={classes.paper}>xs=3</Paper>
+                    <WalletCard/>
                 </Grid>
                 <Grid item xs={5}>
                     <h1>My savings</h1>
